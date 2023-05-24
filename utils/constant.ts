@@ -1,5 +1,6 @@
 export const configs = {
-    baseURL: "http://localhost:5000"
+    // baseURL: "http://localhost:5000"
+    baseURL : "https://server-iccq.onrender.com"
 }
 
 export const colors = {
