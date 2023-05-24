@@ -1,10 +1,8 @@
 import { persistCombineReducers } from 'redux-persist';
 import { PostReducer } from './post/reducers';
-import { CommentReducer } from './comment/reducers';
 const storage = require('redux-persist/lib/storage').default;
 const reducers = {
     post: PostReducer,
-    comment : CommentReducer
 };
 
 const persistConfig = {
